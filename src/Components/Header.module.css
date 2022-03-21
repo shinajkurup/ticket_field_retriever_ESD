@@ -1,0 +1,20 @@
+.header {
+    font-family: "Sofia", sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #ababab;
+    margin: 7px 0 10px 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+@keyframes search{
+    from {transform : rotate(0deg);}
+    to {transform : rotateY(360deg);}
+}
+
+.searchmanicon{
+    margin-left: 17px;
+    animation: search 10s infinite linear;
+}
+
+

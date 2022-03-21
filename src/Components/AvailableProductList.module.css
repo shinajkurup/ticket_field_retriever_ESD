@@ -1,0 +1,61 @@
+.active{
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.listgroup{
+    margin-top: 5px;
+    font-size: 13px;
+    list-style-type: none;
+    /* border-right: 1px solid black; */
+}
+
+ul li {
+    padding-left: 5px;
+    background: lightgray;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+ul li:last-child{
+    border-bottom: 1px solid black;
+}
+
+ul li:hover:not(.active){
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.button {
+    background-color:#008CBA; /* blue */ ;
+   
+    border: none;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin: 2px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+  }
+
+  .button:hover{
+    background-color: lightblue;
+    color: black;
+  }
+
+ button:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: white;
+    float: right;
+    margin-left: 0px;
+  }

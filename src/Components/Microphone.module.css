@@ -1,0 +1,29 @@
+.micicon{
+    position: absolute;
+    top : 2px;
+    right: 4px;
+    width: 30px;
+    cursor: pointer;
+    visibility: visible;
+  
+  }
+
+.tooltip{
+    position: relative;
+}
+.tooltiptext{
+    position:absolute;
+    top : 30px;
+    right: -35px;
+    text-align: center;
+    height: 5px;
+    width: 100px;
+    font-size: 10px;
+    visibility: hidden;
+    /* z-index: 1; */
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+  
